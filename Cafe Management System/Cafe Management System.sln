@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp2", "WindowsFormsApp2\WindowsFormsApp2.csproj", "{32EF9581-71F5-4A05-9CAC-ECC1508FE3E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminPanel", "..\..\..\..\source\repos\AdminPanel\AdminPanel\AdminPanel.csproj", "{0CAF8636-550A-4861-A417-C507D37E6455}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32EF9581-71F5-4A05-9CAC-ECC1508FE3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EF9581-71F5-4A05-9CAC-ECC1508FE3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EF9581-71F5-4A05-9CAC-ECC1508FE3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EF9581-71F5-4A05-9CAC-ECC1508FE3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAF8636-550A-4861-A417-C507D37E6455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAF8636-550A-4861-A417-C507D37E6455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAF8636-550A-4861-A417-C507D37E6455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAF8636-550A-4861-A417-C507D37E6455}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C48B4E9E-F6CE-4B7F-BC5C-9DAE6B9378F0}
+	EndGlobalSection
+EndGlobal

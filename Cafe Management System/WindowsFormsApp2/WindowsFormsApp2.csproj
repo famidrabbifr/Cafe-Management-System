@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32EF9581-71F5-4A05-9CAC-ECC1508FE3E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_item_staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_item_staff.Designer.cs">
+      <DependentUpon>Add_item_staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_Password.Designer.cs">
+      <DependentUpon>Change_Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cus_order_history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cus_order_history.Designer.cs">
+      <DependentUpon>Cus_order_history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cus_Password_change.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cus_Password_change.Designer.cs">
+      <DependentUpon>Cus_Password_change.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cus_Update_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cus_Update_info.Designer.cs">
+      <DependentUpon>Cus_Update_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cus_view_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cus_view_menu.Designer.cs">
+      <DependentUpon>Cus_view_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cus_View_my_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cus_View_my_order.Designer.cs">
+      <DependentUpon>Cus_View_my_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_price_staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_price_staff.Designer.cs">
+      <DependentUpon>Edit_price_staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration Form.Designer.cs">
+      <DependentUpon>Registration Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff.Designer.cs">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Info.Designer.cs">
+      <DependentUpon>Update_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View menu.Designer.cs">
+      <DependentUpon>View menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Current_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Current_order.Designer.cs">
+      <DependentUpon>View_Current_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_order_history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_order_history.Designer.cs">
+      <DependentUpon>View_order_history.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_item_staff.resx">
+      <DependentUpon>Add_item_staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_Password.resx">
+      <DependentUpon>Change_Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cus_order_history.resx">
+      <DependentUpon>Cus_order_history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cus_Password_change.resx">
+      <DependentUpon>Cus_Password_change.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cus_Update_info.resx">
+      <DependentUpon>Cus_Update_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cus_view_menu.resx">
+      <DependentUpon>Cus_view_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cus_View_my_order.resx">
+      <DependentUpon>Cus_View_my_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_price_staff.resx">
+      <DependentUpon>Edit_price_staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Registration Form.resx">
+      <DependentUpon>Registration Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff.resx">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Info.resx">
+      <DependentUpon>Update_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View menu.resx">
+      <DependentUpon>View menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Current_order.resx">
+      <DependentUpon>View_Current_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_order_history.resx">
+      <DependentUpon>View_order_history.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Change Password Button image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Update Info Button image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Edit Button image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Save Button image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\View Menu Button image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Search icon image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Delete account button image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Design picture 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Good food good life text image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Logout button picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\View my order Button image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\View staff current order image Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\View my order history Button image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\View Order histtory button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Design picture 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Design picture 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Design picture 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Design picture 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Arrow symbol picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Design picture 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\source\repos\AdminPanel\AdminPanel\AdminPanel.csproj">
+      <Project>{0caf8636-550a-4861-a417-c507d37e6455}</Project>
+      <Name>AdminPanel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
